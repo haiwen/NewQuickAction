@@ -74,7 +74,7 @@ public class QuickAction extends PopupWindows implements OnDismissListener {
 			}
 		});
 
-		setRootViewId(R.layout.quickaction);
+		setRootViewId(R.layout.dirent_quickaction);
 
 		mAnimStyle = ANIM_AUTO;
 		mAnimateTrack = true;
@@ -360,7 +360,7 @@ public class QuickAction extends PopupWindows implements OnDismissListener {
 
 		final int arrowWidth = mArrowUp.getMeasuredWidth();
 
-		showArrow.setVisibility(View.VISIBLE);
+		// showArrow.setVisibility(View.VISIBLE);
 
 		ViewGroup.MarginLayoutParams param = (ViewGroup.MarginLayoutParams) showArrow
 				.getLayoutParams();
